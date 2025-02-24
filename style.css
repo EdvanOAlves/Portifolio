@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px, 1fr, 100px;
+    background-color: #221950;
+
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
